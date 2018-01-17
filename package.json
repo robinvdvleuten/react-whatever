@@ -1,0 +1,43 @@
+{
+  "name": "react-whatever",
+  "version": "1.0.0",
+  "description": "Higher-order component to render whatever it gets passed",
+  "license": "MIT",
+  "author": "Robin van der Vleuten <robin@webstronauts.co>",
+  "main": "dist/react-whatever.js",
+  "module": "dist/react-whatever.es.js",
+  "jsnext:main": "dist/react-whatever.es.js",
+  "umd:main": "dist/react-whatever.umd.js",
+  "keywords": [
+    "react",
+    "hoc",
+    "render"
+  ],
+  "files": [
+    "dist",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinvdvleuten/react-whatever.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robinvdvleuten/react-whatever/issues"
+  },
+  "homepage": "https://github.com/robinvdvleuten/react-whatever#readme",
+  "devDependencies": {
+    "bundlesize": "^0.15.3",
+    "jest": "^20.0.1",
+    "jest-in-case": "^1.0.2",
+    "microbundle": "^0.2.4",
+    "npm-run-all": "^4.1.1",
+    "react": "^16.2.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0 || ^16.0"
+  }
+}
